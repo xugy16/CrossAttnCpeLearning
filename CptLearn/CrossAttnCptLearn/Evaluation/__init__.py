@@ -1,2 +1,2 @@
-from  .SlowValidation import SlowValidate
-from .FastEvaluation import FastValidate
+from .Evaluator import Evaluator
+from .SlowEvaluation import SlowValidate
