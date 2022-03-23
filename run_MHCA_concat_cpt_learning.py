@@ -7,7 +7,7 @@ from torch.nn.utils.clip_grad import clip_grad_norm_
 from Config.get_config import get_config
 from CptLearn.CrossAttnCptLearn.CrossConcatModalNet import ConcatCptNet
 from CptLearn.CrossAttnCptLearn.Optimizer import get_optim, adjust_lr
-from CptLearn.Evaluation import Evaluator
+from CptLearn.CrossAttnCptLearn.Evaluation import Evaluator
 from CptLearn.CrossAttnCptLearn.Evaluation import SlowValidate
 from Data.NormalDS import CptDataSet
 
